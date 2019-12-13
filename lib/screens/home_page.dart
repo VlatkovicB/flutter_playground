@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'appbar_example.dart';
-import 'tab_bar_example.dart';
-import '../widgets/menu_button.dart';
-import 'navigation_drawer_example.dart';
+import '../imports.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -24,7 +21,11 @@ class HomePage extends StatelessWidget {
           ),
           MenuButton(
             routeName: TabBarExample.routeName,
-            title: "Tab Bar Example",
+            title: "TabBar Example",
+          ),
+          MenuButton(
+            routeName: CollapsableToolbarExample.routeName,
+            title: "Collapsable TabBar Example",
           ),
         ],
       ),

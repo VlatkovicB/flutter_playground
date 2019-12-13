@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'constants.dart';
-import './screens/home_page.dart';
-import './screens/appbar_example.dart';
-import './screens/navigation_drawer_example.dart';
-import './screens/tab_bar_example.dart';
+import 'imports.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,6 +18,8 @@ class MyApp extends StatelessWidget {
         AppBarExample.routeName: (ctx) => AppBarExample(),
         NavigationDrawerExample.routeName: (ctx) => NavigationDrawerExample(),
         TabBarExample.routeName: (ctx) => TabBarExample(),
+        CollapsableToolbarExample.routeName: (ctx) =>
+            CollapsableToolbarExample(),
       },
     );
   }
