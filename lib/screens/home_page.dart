@@ -45,7 +45,10 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     ),
     MenuButton(
         routeName: BottomNavigationExample.routeName,
-        title: "BottomNavigation with Page View")
+        title: "BottomNavigation with Page View"),
+    MenuButton(
+        routeName: AnimatedIconsExample.routeName,
+        title: "Animated Icons Example"),
   ];
 
   void _toggleView() {
