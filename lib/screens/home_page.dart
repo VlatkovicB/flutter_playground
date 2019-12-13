@@ -52,6 +52,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     MenuButton(
         routeName: AnimatedSizeExample.routeName,
         title: "Animated Size Example"),
+    MenuButton(
+        routeName: ProgressButtonExample.routeName,
+        title: "Progress Button Example"),
   ];
 
   void _toggleView() {

@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
         BottomNavigationExample.routeName: (ctx) => BottomNavigationExample(),
         AnimatedIconsExample.routeName: (ctx) => AnimatedIconsExample(),
         AnimatedSizeExample.routeName: (ctx) => AnimatedSizeExample(),
+        ProgressButtonExample.routeName: (ctx) => ProgressButtonExample(),
       },
     );
   }
