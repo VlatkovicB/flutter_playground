@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
         TabBarExample.routeName: (ctx) => TabBarExample(),
         CollapsableToolbarExample.routeName: (ctx) =>
             CollapsableToolbarExample(),
+        BottomNavigationExample.routeName: (ctx) => BottomNavigationExample(),
       },
     );
   }
