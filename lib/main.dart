@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
-        accentColor: Colors.indigo,
+        accentColor: Colors.cyanAccent,
         fontFamily: Constants.ROBOTO_REGULAR,
       ),
       home: HomePage(),
