@@ -4,6 +4,7 @@ import 'constants.dart';
 import './screens/home_page.dart';
 import './screens/appbar_example.dart';
 import './screens/navigation_drawer_example.dart';
+import './screens/tab_bar_example.dart';
 
 void main() => runApp(MyApp());
 
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         AppBarExample.routeName: (ctx) => AppBarExample(),
         NavigationDrawerExample.routeName: (ctx) => NavigationDrawerExample(),
+        TabBarExample.routeName: (ctx) => TabBarExample(),
       },
     );
   }

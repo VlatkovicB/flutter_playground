@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'appbar_example.dart';
+import 'tab_bar_example.dart';
 import '../widgets/menu_button.dart';
 import 'navigation_drawer_example.dart';
 
@@ -20,6 +21,10 @@ class HomePage extends StatelessWidget {
           MenuButton(
             routeName: NavigationDrawerExample.routeName,
             title: "Navigation Drawer",
+          ),
+          MenuButton(
+            routeName: TabBarExample.routeName,
+            title: "Tab Bar Example",
           ),
         ],
       ),
