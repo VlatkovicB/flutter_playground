@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
             CollapsableToolbarExample(),
         BottomNavigationExample.routeName: (ctx) => BottomNavigationExample(),
         AnimatedIconsExample.routeName: (ctx) => AnimatedIconsExample(),
+        AnimatedSizeExample.routeName: (ctx) => AnimatedSizeExample(),
       },
     );
   }
