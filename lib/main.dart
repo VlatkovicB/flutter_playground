@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
         AnimatedIconsExample.routeName: (ctx) => AnimatedIconsExample(),
         AnimatedSizeExample.routeName: (ctx) => AnimatedSizeExample(),
         ProgressButtonExample.routeName: (ctx) => ProgressButtonExample(),
+        StaggerAnimationsExample.routeName: (ctx) => StaggerAnimationsExample(),
       },
     );
   }

@@ -11,6 +11,7 @@ export './screens/bottom_navigation_example.dart';
 export './screens/animated_icons_example.dart';
 export './screens/animated_size_example.dart';
 export './screens/progress_button_example.dart';
+export './screens/stagger_animations_example.dart';
 
 // WIDGETS
 export './widgets/menu_button.dart';
