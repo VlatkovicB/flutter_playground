@@ -26,6 +26,9 @@ class MyApp extends StatelessWidget {
         ProgressButtonExample.routeName: (ctx) => ProgressButtonExample(),
         StaggerAnimationsExample.routeName: (ctx) => StaggerAnimationsExample(),
         StepperExample.routeName: (ctx) => StepperExample(),
+        HardwareKeyExample.routeName: (ctx) => HardwareKeyExample(),
+        GridPaperExample.routeName: (ctx) => GridPaperExample(),
+        AnimatedSwitcherExample.routeName: (ctx) => AnimatedSwitcherExample(),
       },
     );
   }

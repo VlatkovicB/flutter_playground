@@ -27,38 +27,45 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   }
 
   final _children = <Widget>[
+    // MenuButton(
+    //   routeName: AppBarExample.routeName,
+    //   title: "App Bar",
+    // ),
+    // MenuButton(
+    //   routeName: NavigationDrawerExample.routeName,
+    //   title: "Navigation Drawer",
+    // ),
+    // MenuButton(
+    //   routeName: TabBarExample.routeName,
+    //   title: "TabBar Example",
+    // ),
+    // MenuButton(
+    //   routeName: CollapsableToolbarExample.routeName,
+    //   title: "Collapsable TabBar Example",
+    // ),
+    // MenuButton(
+    //     routeName: BottomNavigationExample.routeName,
+    //     title: "BottomNavigation with Page View"),
+    // MenuButton(
+    //     routeName: AnimatedIconsExample.routeName,
+    //     title: "Animated Icons Example"),
+    // MenuButton(
+    //     routeName: AnimatedSizeExample.routeName,
+    //     title: "Animated Size Example"),
+    // MenuButton(
+    //     routeName: ProgressButtonExample.routeName,
+    //     title: "Progress Button Example"),
+    // MenuButton(
+    //     routeName: StaggerAnimationsExample.routeName,
+    //     title: "Stagger Animations Example"),
+    // MenuButton(routeName: StepperExample.routeName, title: "Stepper Example"),
     MenuButton(
-      routeName: AppBarExample.routeName,
-      title: "App Bar",
-    ),
+        routeName: HardwareKeyExample.routeName, title: 'HardwareKey example'),
     MenuButton(
-      routeName: NavigationDrawerExample.routeName,
-      title: "Navigation Drawer",
-    ),
+        routeName: GridPaperExample.routeName, title: 'GridPaper Example'),
     MenuButton(
-      routeName: TabBarExample.routeName,
-      title: "TabBar Example",
-    ),
-    MenuButton(
-      routeName: CollapsableToolbarExample.routeName,
-      title: "Collapsable TabBar Example",
-    ),
-    MenuButton(
-        routeName: BottomNavigationExample.routeName,
-        title: "BottomNavigation with Page View"),
-    MenuButton(
-        routeName: AnimatedIconsExample.routeName,
-        title: "Animated Icons Example"),
-    MenuButton(
-        routeName: AnimatedSizeExample.routeName,
-        title: "Animated Size Example"),
-    MenuButton(
-        routeName: ProgressButtonExample.routeName,
-        title: "Progress Button Example"),
-    MenuButton(
-        routeName: StaggerAnimationsExample.routeName,
-        title: "Stagger Animations Example"),
-    MenuButton(routeName: StepperExample.routeName, title: "Stepper Example"),
+        routeName: AnimatedSwitcherExample.routeName,
+        title: 'AnimatedSwitcher exmaple'),
   ];
 
   void _toggleView() {
