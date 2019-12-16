@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.cyanAccent,
         fontFamily: Constants.ROBOTO_REGULAR,
       ),
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
       routes: {
         AppBarExample.routeName: (ctx) => AppBarExample(),
@@ -31,6 +32,9 @@ class MyApp extends StatelessWidget {
         AnimatedSwitcherExample.routeName: (ctx) => AnimatedSwitcherExample(),
         DragAndDropExample.routeName: (ctx) => DragAndDropExample(),
         FlowWidgetExample.routeName: (ctx) => FlowWidgetExample(),
+        ExpansionTileExample.routeName: (ctx) => ExpansionTileExample(),
+        AboutListTileExample.routeName: (ctx) => AboutListTileExample(),
+        LifecycleExample.routeName: (ctx) => LifecycleExample(),
       },
     );
   }

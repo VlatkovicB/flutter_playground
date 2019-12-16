@@ -70,6 +70,14 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         routeName: DragAndDropExample.routeName, title: 'DragAndDrop Example'),
     MenuButton(
         routeName: FlowWidgetExample.routeName, title: 'FlowWidget Example'),
+    MenuButton(
+        routeName: ExpansionTileExample.routeName,
+        title: 'ExpansionTile Example'),
+    MenuButton(
+        routeName: AboutListTileExample.routeName,
+        title: 'AboutListTile Example'),
+    MenuButton(
+        routeName: LifecycleExample.routeName, title: 'Lifecycle Example'),
   ];
 
   void _toggleView() {
