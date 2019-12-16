@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
         GridPaperExample.routeName: (ctx) => GridPaperExample(),
         AnimatedSwitcherExample.routeName: (ctx) => AnimatedSwitcherExample(),
         DragAndDropExample.routeName: (ctx) => DragAndDropExample(),
+        FlowWidgetExample.routeName: (ctx) => FlowWidgetExample(),
       },
     );
   }
