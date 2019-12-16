@@ -26,6 +26,8 @@ export './screens/nested_example.dart';
 export './screens/cupertino/timer_picker_example.dart';
 export './screens/cupertino/action_sheet_example.dart';
 export './screens/cupertino/progress_indicator_example.dart';
+export './screens/rotation_transition_example.dart';
+export './screens/dismissable_example.dart';
 
 // WIDGETS
 export './widgets/menu_button.dart';

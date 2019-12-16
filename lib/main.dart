@@ -40,6 +40,9 @@ class MyApp extends StatelessWidget {
         TimerPickerExample.routeName: (ctx) => TimerPickerExample(),
         ActionSheetExample.routeName: (ctx) => ActionSheetExample(),
         ProgressIndicatorExample.routeName: (ctx) => ProgressIndicatorExample(),
+        RotationTransitionExample.routeName: (ctx) =>
+            RotationTransitionExample(),
+        DismissableExample.routeName: (ctx) => DismissableExample(),
       },
     );
   }

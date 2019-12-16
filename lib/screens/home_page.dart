@@ -27,55 +27,55 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   }
 
   final _children = <Widget>[
-    // MenuButton(
-    //   routeName: AppBarExample.routeName,
-    //   title: "App Bar",
-    // ),
-    // MenuButton(
-    //   routeName: NavigationDrawerExample.routeName,
-    //   title: "Navigation Drawer",
-    // ),
-    // MenuButton(
-    //   routeName: TabBarExample.routeName,
-    //   title: "TabBar Example",
-    // ),
-    // MenuButton(
-    //   routeName: CollapsableToolbarExample.routeName,
-    //   title: "Collapsable TabBar Example",
-    // ),
-    // MenuButton(
-    //     routeName: BottomNavigationExample.routeName,
-    //     title: "BottomNavigation with Page View"),
-    // MenuButton(
-    //     routeName: AnimatedIconsExample.routeName,
-    //     title: "Animated Icons Example"),
-    // MenuButton(
-    //     routeName: AnimatedSizeExample.routeName,
-    //     title: "Animated Size Example"),
-    // MenuButton(
-    //     routeName: ProgressButtonExample.routeName,
-    //     title: "Progress Button Example"),
-    // MenuButton(
-    //     routeName: StaggerAnimationsExample.routeName,
-    //     title: "Stagger Animations Example"),
-    // MenuButton(routeName: StepperExample.routeName, title: "Stepper Example"),
-    // MenuButton(
-    //     routeName: HardwareKeyExample.routeName, title: 'HardwareKey example'),
-    // MenuButton(
-    //     routeName: GridPaperExample.routeName, title: 'GridPaper Example'),
-    // MenuButton(
-    //     routeName: AnimatedSwitcherExample.routeName,
-    //     title: 'AnimatedSwitcher exmaple'),
-    // MenuButton(
-    //     routeName: DragAndDropExample.routeName, title: 'DragAndDrop Example'),
-    // MenuButton(
-    //     routeName: FlowWidgetExample.routeName, title: 'FlowWidget Example'),
-    // MenuButton(
-    //     routeName: ExpansionTileExample.routeName,
-    //     title: 'ExpansionTile Example'),
-    // MenuButton(
-    //     routeName: AboutListTileExample.routeName,
-    //     title: 'AboutListTile Example'),
+    MenuButton(
+      routeName: AppBarExample.routeName,
+      title: "App Bar",
+    ),
+    MenuButton(
+      routeName: NavigationDrawerExample.routeName,
+      title: "Navigation Drawer",
+    ),
+    MenuButton(
+      routeName: TabBarExample.routeName,
+      title: "TabBar Example",
+    ),
+    MenuButton(
+      routeName: CollapsableToolbarExample.routeName,
+      title: "Collapsable TabBar Example",
+    ),
+    MenuButton(
+        routeName: BottomNavigationExample.routeName,
+        title: "BottomNavigation with Page View"),
+    MenuButton(
+        routeName: AnimatedIconsExample.routeName,
+        title: "Animated Icons Example"),
+    MenuButton(
+        routeName: AnimatedSizeExample.routeName,
+        title: "Animated Size Example"),
+    MenuButton(
+        routeName: ProgressButtonExample.routeName,
+        title: "Progress Button Example"),
+    MenuButton(
+        routeName: StaggerAnimationsExample.routeName,
+        title: "Stagger Animations Example"),
+    MenuButton(routeName: StepperExample.routeName, title: "Stepper Example"),
+    MenuButton(
+        routeName: HardwareKeyExample.routeName, title: 'HardwareKey example'),
+    MenuButton(
+        routeName: GridPaperExample.routeName, title: 'GridPaper Example'),
+    MenuButton(
+        routeName: AnimatedSwitcherExample.routeName,
+        title: 'AnimatedSwitcher exmaple'),
+    MenuButton(
+        routeName: DragAndDropExample.routeName, title: 'DragAndDrop Example'),
+    MenuButton(
+        routeName: FlowWidgetExample.routeName, title: 'FlowWidget Example'),
+    MenuButton(
+        routeName: ExpansionTileExample.routeName,
+        title: 'ExpansionTile Example'),
+    MenuButton(
+        routeName: AboutListTileExample.routeName,
+        title: 'AboutListTile Example'),
     MenuButton(
         routeName: LifecycleExample.routeName, title: 'Lifecycle Example'),
     MenuButton(
@@ -88,6 +88,11 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         title: 'ProgressIndicator Example'),
     MenuButton(
         routeName: ActionSheetExample.routeName, title: 'ActionSheet Example'),
+    MenuButton(
+        routeName: RotationTransitionExample.routeName,
+        title: 'RotationTransition Example'),
+    MenuButton(
+        routeName: DismissableExample.routeName, title: 'Dismissable Example'),
   ];
 
   void _toggleView() {
