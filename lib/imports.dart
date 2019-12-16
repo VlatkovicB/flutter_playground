@@ -23,6 +23,9 @@ export './screens/about_list_tile_example.dart';
 export './screens/lifecycle_example.dart';
 export './screens/rotated_box_example.dart';
 export './screens/nested_example.dart';
+export './screens/cupertino/timer_picker_example.dart';
+export './screens/cupertino/action_sheet_example.dart';
+export './screens/cupertino/progress_indicator_example.dart';
 
 // WIDGETS
 export './widgets/menu_button.dart';

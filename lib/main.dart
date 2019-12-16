@@ -37,6 +37,9 @@ class MyApp extends StatelessWidget {
         LifecycleExample.routeName: (ctx) => LifecycleExample(),
         RotatedBoxExample.routeName: (ctx) => RotatedBoxExample(),
         NestedExample.routeName: (ctx) => NestedExample(),
+        TimerPickerExample.routeName: (ctx) => TimerPickerExample(),
+        ActionSheetExample.routeName: (ctx) => ActionSheetExample(),
+        ProgressIndicatorExample.routeName: (ctx) => ProgressIndicatorExample(),
       },
     );
   }

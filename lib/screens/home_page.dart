@@ -59,28 +59,35 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     //     routeName: StaggerAnimationsExample.routeName,
     //     title: "Stagger Animations Example"),
     // MenuButton(routeName: StepperExample.routeName, title: "Stepper Example"),
-    MenuButton(
-        routeName: HardwareKeyExample.routeName, title: 'HardwareKey example'),
-    MenuButton(
-        routeName: GridPaperExample.routeName, title: 'GridPaper Example'),
-    MenuButton(
-        routeName: AnimatedSwitcherExample.routeName,
-        title: 'AnimatedSwitcher exmaple'),
-    MenuButton(
-        routeName: DragAndDropExample.routeName, title: 'DragAndDrop Example'),
-    MenuButton(
-        routeName: FlowWidgetExample.routeName, title: 'FlowWidget Example'),
-    MenuButton(
-        routeName: ExpansionTileExample.routeName,
-        title: 'ExpansionTile Example'),
-    MenuButton(
-        routeName: AboutListTileExample.routeName,
-        title: 'AboutListTile Example'),
+    // MenuButton(
+    //     routeName: HardwareKeyExample.routeName, title: 'HardwareKey example'),
+    // MenuButton(
+    //     routeName: GridPaperExample.routeName, title: 'GridPaper Example'),
+    // MenuButton(
+    //     routeName: AnimatedSwitcherExample.routeName,
+    //     title: 'AnimatedSwitcher exmaple'),
+    // MenuButton(
+    //     routeName: DragAndDropExample.routeName, title: 'DragAndDrop Example'),
+    // MenuButton(
+    //     routeName: FlowWidgetExample.routeName, title: 'FlowWidget Example'),
+    // MenuButton(
+    //     routeName: ExpansionTileExample.routeName,
+    //     title: 'ExpansionTile Example'),
+    // MenuButton(
+    //     routeName: AboutListTileExample.routeName,
+    //     title: 'AboutListTile Example'),
     MenuButton(
         routeName: LifecycleExample.routeName, title: 'Lifecycle Example'),
     MenuButton(
         routeName: RotatedBoxExample.routeName, title: 'RotatedBox Example'),
     MenuButton(routeName: NestedExample.routeName, title: 'Nested Example'),
+    MenuButton(
+        routeName: TimerPickerExample.routeName, title: 'TimerPicker Example'),
+    MenuButton(
+        routeName: ProgressIndicatorExample.routeName,
+        title: 'ProgressIndicator Example'),
+    MenuButton(
+        routeName: ActionSheetExample.routeName, title: 'ActionSheet Example'),
   ];
 
   void _toggleView() {
