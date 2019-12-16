@@ -66,6 +66,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     MenuButton(
         routeName: AnimatedSwitcherExample.routeName,
         title: 'AnimatedSwitcher exmaple'),
+    MenuButton(
+        routeName: DragAndDropExample.routeName, title: 'DragAndDrop Example'),
   ];
 
   void _toggleView() {

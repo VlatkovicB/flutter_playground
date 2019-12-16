@@ -16,6 +16,7 @@ export './screens/stepper_example.dart';
 export './screens/hardware_key_example.dart';
 export './screens/grid_paper_example.dart';
 export './screens/animated_switcher_example.dart';
+export './screens/drag_and_drop_example.dart';
 
 // WIDGETS
 export './widgets/menu_button.dart';

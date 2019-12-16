@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
         HardwareKeyExample.routeName: (ctx) => HardwareKeyExample(),
         GridPaperExample.routeName: (ctx) => GridPaperExample(),
         AnimatedSwitcherExample.routeName: (ctx) => AnimatedSwitcherExample(),
+        DragAndDropExample.routeName: (ctx) => DragAndDropExample(),
       },
     );
   }
