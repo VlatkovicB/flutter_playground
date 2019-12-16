@@ -78,6 +78,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         title: 'AboutListTile Example'),
     MenuButton(
         routeName: LifecycleExample.routeName, title: 'Lifecycle Example'),
+    MenuButton(
+        routeName: RotatedBoxExample.routeName, title: 'RotatedBox Example'),
+    MenuButton(routeName: NestedExample.routeName, title: 'Nested Example'),
   ];
 
   void _toggleView() {

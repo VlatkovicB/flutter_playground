@@ -35,6 +35,8 @@ class MyApp extends StatelessWidget {
         ExpansionTileExample.routeName: (ctx) => ExpansionTileExample(),
         AboutListTileExample.routeName: (ctx) => AboutListTileExample(),
         LifecycleExample.routeName: (ctx) => LifecycleExample(),
+        RotatedBoxExample.routeName: (ctx) => RotatedBoxExample(),
+        NestedExample.routeName: (ctx) => NestedExample(),
       },
     );
   }
